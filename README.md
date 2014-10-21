@@ -48,3 +48,14 @@ Puis saisir 127.0.0.1 pour voir le répertoire
 
 Mettre un monsieur en collaborateur:
 rakfull > rakfull > settings > Collaborators
+Settings > Collaborators
+
+Pour générer des pages :
+Repository > Settings > Automatic page generator
+
+Cloner / mettre à jour le répertoire sur la machine virtuelle :
+$ cd /home/xubuntu/site/
+$ git clone https://github.com/username/repositoryname.github.io.git
+
+$ cd /home/xubuntu/site/repositoryname.github.io
+$ jekyll serve
